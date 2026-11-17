@@ -1,4 +1,4 @@
- color-print
+ color-print.
 # Prueba práctica UD2. Dependencias en maven y git
 
 - Crea un proyecto nuevo de IntelliJ con Maven. Crea un repositorio y haz un commit inicial. Hecho!
