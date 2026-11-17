@@ -1,9 +1,14 @@
+
  repositorio : https://github.com/NekoDebby/Examen_UD2.git
  
+ color-print
+
 # Prueba práctica UD2. Dependencias en maven y git
 
-- Crea un proyecto nuevo de IntelliJ con Maven. Crea un repositorio y haz un commit inicial.
-- Añade la dependencia datafaker (net.datafaker) desde el repositorio de maven.
+- Crea un proyecto nuevo de IntelliJ con Maven. Crea un repositorio y haz un commit inicial. Hecho!
+
+- Añade la dependencia datafaker (net.datafaker) desde el repositorio de maven. Hecho!
+
 - Añade el siguiente código dentro del main, junto al import necesario para que se ejecute:
 
 
