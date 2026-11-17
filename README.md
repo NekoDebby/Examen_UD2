@@ -24,7 +24,7 @@ for (int i = 0; i < 10; i++) {
 
 - Vuelve a la rama principal. Desde aquí añadiremos la dependencia JCDP (java color debug printer) de com.diogonunes. Hecho!
 
-- Escribe y ejecuta este código en el main. Haz un commit en una nueva rama llamada "color-print".
+- Escribe y ejecuta este código en el main. Haz un commit en una nueva rama llamada "color-print". hecho!
 
 ```Java
 
