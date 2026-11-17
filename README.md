@@ -21,7 +21,8 @@ for (int i = 0; i < 10; i++) {
 ```
 
 
-- Haz un commit en una nueva rama data-faker.
+- Haz un commit en una nueva rama data-faker. Hecho!
+
 - Vuelve a la rama principal. Desde aquí añadiremos la dependencia JCDP (java color debug printer) de com.diogonunes.
 - Escribe y ejecuta este código en el main. Haz un commit en una nueva rama llamada "color-print".
 
