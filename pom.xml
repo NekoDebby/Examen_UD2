@@ -22,4 +22,13 @@
     </dependency>
     </dependencies>
 
+    <dependencies>
+    <dependency>
+        <groupId>com.diogonunes</groupId>
+        <artifactId>JCDP</artifactId>
+        <version>4.0.2</version>
+        <scope>compile</scope>
+    </dependency>
+    </dependencies>
+
 </project>

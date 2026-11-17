@@ -1,3 +1,4 @@
+ color-print
 # Prueba práctica UD2. Dependencias en maven y git
 
 - Crea un proyecto nuevo de IntelliJ con Maven. Crea un repositorio y haz un commit inicial. Hecho!
@@ -5,6 +6,7 @@
 - Añade la dependencia datafaker (net.datafaker) desde el repositorio de maven. Hecho!
 
 - Añade el siguiente código dentro del main, junto al import necesario para que se ejecute:
+
 
 ```java
 Faker faker = new Faker();
@@ -20,27 +22,15 @@ for (int i = 0; i < 10; i++) {
 }
 ```
 
+- Haz un commit en una nueva rama data-faker
 
-- Haz un commit en una nueva rama data-faker. Hecho!
+- Vuelve a la rama principal. Desde aquí añadiremos la dependencia JCDP (java color debug printer) de com.diogonunes. Hecho!
 
-- Vuelve a la rama principal. Desde aquí añadiremos la dependencia JCDP (java color debug printer) de com.diogonunes.
-- Escribe y ejecuta este código en el main. Haz un commit en una nueva rama llamada "color-print".
+- Escribe y ejecuta este código en el main. Haz un commit en una nueva rama llamada "color-print". hecho!
 
 ```Java
 
-ColoredPrinter cp = new ColoredPrinter.Builder(1, false)
-    .foreground(Ansi.FColor.WHITE).background(Ansi.BColor.BLUE)
-    .build();
 
-for (int i = 0; i < 10; i++) {
-    // Generar data
-    String name = "Juan Juánez"
-    String streetAddress = "Calle falsa, 123"
-
-    // Mostrar data
-    cp.println("Nombre: " + name, Ansi.Attribute.BOLD, Ansi.FColor.BLACK, Ansi.BColor.WHITE);
-    cp.println("Dirección: " + streetAddress, Ansi.Attribute.NONE, Ansi.FColor.BLACK, Ansi.BColor.GREEN); 
-}
 ```
 
 - Vuelve a la rama principal.
@@ -64,4 +54,3 @@ for (int i = 0; i < 10; i++) {
 ```
 
 - Haz un ultimo commit solucionando conflictos si es necesario, y comprime el proyecto en un zip. Entregalo en aules.
-
